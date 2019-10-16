@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Syntax Corrector!</title>
+
+<script type="text/javascript" src="js/syntax.js"></script>
+
+</head>
+
+<main>
+
+<body bgcolor="Black" text="Green">
+
+<center>
+
+<h1>Let's check the syntax!</h1>
+
+Please enter the details:
+<br />
+<br />
+CoID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URI
+<br />
+<input type="text" id="conid" length="14" maxlength="14"></input>
+<input type="text" id="uriid"></input>
+
+<br />
+<br />
+
+<input type="button" onclick="syn(document.getElementById('conid').value, document.getElementById('uriid').value)" value="Check"></button>
+
+<br />
+<p id="linfo"></p>
+<p id="uri_dec"></p>
+<!--<input type="file" id="intf" multiple size="50" onchange="corr()">
+
+<textarea id="finfo" style="width:400px;height:150px;"></textarea>
+-->
+</center>
+
+</body>
+
+</main>
+
+</html>
